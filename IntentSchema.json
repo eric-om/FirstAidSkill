@@ -1,0 +1,22 @@
+{"intents": [
+    {"intent": "GeneralIntent", "slots": [{"name" : "Item", "type": "LIST_OF_EMERGENCIES"}]},
+    {"intent": "HowIntent", "slots": [{"name": "Action", "type": "LIST_OF_ACTIONS"}]},
+    {"intent": "WhatCanISayIntent"},
+    {"intent": "NevermindIntent"},
+  	{"intent": "DefaultIntent"},
+  	{"intent": "CPRIntent"},
+  	{"intent": "ReadyIntent"},
+  	{"intent": "CountIntent"},
+  	{"intent": "DoneIntent"},
+  	{"intent": "ContinueIntent"},
+    {"intent": "RestartIntent", "slots": [{"name": "Action", "type": "LIST_OF_ACTIONS"}]},
+    {"intent": "QuitIntent"},
+    {"intent": "ConfirmQuitIntent"},
+    {"intent": "ConsciousChokingIntent"},
+    {"intent": "UnconsciousChokingIntent"},
+    {"intent": "AMAZON.RepeatIntent"},
+    {"intent": "AMAZON.HelpIntent"},
+    {"intent": "AMAZON.StopIntent"},
+    {"intent": "AMAZON.CancelIntent"}
+  ]
+}

@@ -1,0 +1,13 @@
+Name: "Item"
+Slot Type: LIST_OF_EMERGENCIES
+Values:
+  checking an injured adult
+  choking
+  CPR
+  AED
+  controlling bleeding
+  burns
+  poisoning
+  neck injuries
+  spinal injuries
+  stroke

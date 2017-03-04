@@ -1,0 +1,546 @@
+Utterance: i need help with bleeding
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "First Aid here, What can I help you with? ",
+      "STATE": "_DEFAULT"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.8e89e96e-e140-4068-b0b2-b3003eb2ee36",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:13:52Z",
+    "intent": {
+      "name": "GeneralIntent",
+      "slots": {
+        "Item": {
+          "name": "Item",
+          "value": "bleeding"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> call 911. Is there anything else I can help with?  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> Is there anything else I can help with?  </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "call 911. Is there anything else I can help with? ",
+    "STATE": "_DEFAULT",
+    "repromptSpeech": "Is there anything else I can help with? "
+  }
+}
+
+---
+
+Utterance: choking
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "call 911. Is there anything else I can help with? ",
+      "STATE": "_DEFAULT",
+      "repromptSpeech": "Is there anything else I can help with? "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.5494b6a5-f684-43dd-9e34-6c5e9d6f2e02",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:15:19Z",
+    "intent": {
+      "name": "GeneralIntent",
+      "slots": {
+        "Item": {
+          "name": "Item",
+          "value": "choking"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> is the person under distress conscious or unconscious?  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "is the person under distress conscious or unconscious? ",
+    "STATE": "_CHOKING",
+    "repromptSpeech": "Is there anything else I can help with? "
+  }
+}
+
+Utterance: "conscious"
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "is the person under distress conscious or unconscious? ",
+      "STATE": "_CHOKING",
+      "repromptSpeech": "Is there anything else I can help with? "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.ec8b227d-253b-4989-a57a-b66ef40f8076",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:17:05Z",
+    "intent": {
+      "name": "ConsciousChokingIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> call 911.  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "call 911. ",
+    "STATE": "_DEFAULT",
+    "repromptSpeech": "Is there anything else I can help with? "
+  }
+}
+
+---
+
+Utterance: he's having a stroke
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "call 911. ",
+      "STATE": "_DEFAULT",
+      "repromptSpeech": "Is there anything else I can help with? "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.05aedb84-fd28-4be3-992e-1318259fb601",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:19:14Z",
+    "intent": {
+      "name": "DefaultIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> call 911.  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "call 911. ",
+    "STATE": "_DEFAULT",
+    "repromptSpeech": "Is there anything else I can help with? "
+  }
+}
+
+---
+
+Utterance: someone is unconscious
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "call 911. ",
+      "STATE": "_DEFAULT",
+      "repromptSpeech": "Is there anything else I can help with? "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.f7eaa715-0084-4e7e-a317-b66b6ac37761",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:20:01Z",
+    "intent": {
+      "name": "DefaultIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> call 911.  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "call 911. ",
+    "STATE": "_DEFAULT",
+    "repromptSpeech": "Is there anything else I can help with? "
+  }
+}
+
+---
+
+Utterance: someone needs CPR
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "call 911. ",
+      "STATE": "_DEFAULT",
+      "repromptSpeech": "Is there anything else I can help with? "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.d8f08b4e-86e9-48d8-b0d6-944a91f2fdd6",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:25:24Z",
+    "intent": {
+      "name": "CPRIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> check the scene and the injured or ill person. lay the person on a firm, flat surface. you will give 30 chest compressions. push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minute. when you are ready to begin, say ready.  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "check the scene and the injured or ill person. lay the person on a firm, flat surface. you will give 30 chest compressions. push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minute. when you are ready to begin, say ready. ",
+    "STATE": "_CPR",
+    "repromptSpeech": "Is there anything else I can help with? "
+  }
+}
+
+Utterance: ready
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "check the scene and the injured or ill person. lay the person on a firm, flat surface. you will give 30 chest compressions. push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minute. when you are ready to begin, say ready. ",
+      "STATE": "_CPR",
+      "repromptSpeech": "Is there anything else I can help with? "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.8a1dacdf-0f5f-437b-aca4-cca319ad8f58",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:25:47Z",
+    "intent": {
+      "name": "ReadyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> give 30 chest compressions. say count to start a counter. when you are done with 30 compressions, say done.  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> when you are done with 30 compressions, say done.  </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "give 30 chest compressions. say count to start a counter. when you are done with 30 compressions, say done. ",
+    "STATE": "_CPR",
+    "repromptSpeech": "when you are done with 30 compressions, say done. "
+  }
+}
+
+Utterance: done
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "give 30 chest compressions. say count to start a counter. when you are done with 30 compressions, say done. ",
+      "STATE": "_CPR",
+      "repromptSpeech": "when you are done with 30 compressions, say done. "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.a117fcba-7823-42b8-8599-6d87d7109011",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:26:05Z",
+    "intent": {
+      "name": "DoneIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> you are going to give 2 rescue breaths. tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other. If chest does not rise with rescue breaths, retilt the head and give another rescue breath. when you are done with rescue breaths say done.  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "you are going to give 2 rescue breaths. tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other. If chest does not rise with rescue breaths, retilt the head and give another rescue breath. when you are done with rescue breaths say done. ",
+    "STATE": "_CPR",
+    "repromptSpeech": "when you are done with 30 compressions, say done. "
+  }
+}
+
+Utterance: quit CPR
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "you are going to give 2 rescue breaths. tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other. If chest does not rise with rescue breaths, retilt the head and give another rescue breath. when you are done with rescue breaths say done. ",
+      "STATE": "_CPR",
+      "repromptSpeech": "when you are done with 30 compressions, say done. "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.47566a94-1209-469f-915c-2c67dd4da29d",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:26:19Z",
+    "intent": {
+      "name": "ConfirmQuitIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> are you sure you want to stop?  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "are you sure you want to stop? ",
+    "STATE": "_CPR",
+    "repromptSpeech": "when you are done with 30 compressions, say done. "
+  }
+}
+
+Utterance: yes
+
+{
+  "session": {
+    "sessionId": "SessionId.f07dd7cc-31a7-4e88-b110-7b20bfc25730",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6d95c409-dc71-4f6d-a6e8-66cb0fb47026"
+    },
+    "attributes": {
+      "speechOutput": "are you sure you want to stop? ",
+      "STATE": "_CPR",
+      "repromptSpeech": "when you are done with 30 compressions, say done. "
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHPVZ7CXLGUZHL5CZ4ZRIKP3YGOYKUVWI7R6LL6I35HBAM5IPIAPZ74BJDKHSOVTA3AKWG4Y55CO75BDNMVLMZEXDKVDKAONITHPJSDZ6NY4E442CX7SEC5JISBPGMFGZ6KWHOE3LCVJD2L6FYAW72G3EFI7NOZZINYBE2B5VMRIZW7Y5URGNWYKELZTPTN3JMLNTDAD42JOCLY"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.43be1376-8f3c-4c20-85dc-a13c561b7ef6",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T04:26:29Z",
+    "intent": {
+      "name": "QuitIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> What can I help you with?  </speak>"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak> undefined </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "speechOutput": "What can I help you with? ",
+    "STATE": "_DEFAULT",
+    "repromptSpeech": "when you are done with 30 compressions, say done. "
+  }
+}

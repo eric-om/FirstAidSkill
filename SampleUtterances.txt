@@ -1,0 +1,158 @@
+GeneralIntent {Item}
+GeneralIntent {Item} help
+GeneralIntent i need help with {Item}
+GeneralIntent help me with {Item}
+GeneralIntent help me {Item}
+GeneralIntent help {Item}
+GeneralIntent help someone has {Item}
+GeneralIntent help someone is {Item}
+GeneralIntent how to treat {Item}
+
+WhatCanISayIntent what can i say
+
+HowIntent how do i do {Action}
+
+RestartIntent restart {Action}
+RestartIntent restart
+
+ConfirmQuitIntent quit
+ConfirmQuitIntent stop CPR
+ConfirmQuitIntent quit CPR
+ContinueIntent no
+QuitIntent yes
+
+NevermindIntent nevermind
+NevermindIntent never mind
+
+CountIntent count
+
+DoneIntent done
+ReadyIntent ready
+
+CPRIntent CPR
+CPRIntent CPR help
+CPRIntent help me with CPR
+CPRIntent help me CPR
+CPRIntent help CPR
+CPRIntent help someone needs CPR
+CPRIntent someone needs CPR
+CPRIntent someone stopped breathing
+CPRIntent how do i do CPR
+CPRIntent how to give CPR
+CPRIntent how do i give CPR
+CPRIntent what are the steps for CPR
+CPRIntent help me perform CPR
+
+DefaultIntent someone is injured
+DefaultIntent someone is hurt
+DefaultIntent they're injured
+DefaultIntent someone is unconscious
+DefaultIntent check if someone is ok
+DefaultIntent check if he is ok
+DefaultIntent check if she is ok
+DefaultIntent check if they're ok
+
+DefaultIntent someone is choking
+DefaultIntent he is choking
+DefaultIntent she is choking
+DefaultIntent they're choking
+DefaultIntent how do i stop the choking
+DefaultIntent how do i clear their airway
+DefaultIntent how to stop choking
+
+ConsciousChokingIntent conscious
+UnconsciousChokingIntent unconscious
+
+DefaultIntent i need help with an AED
+DefaultIntent how to use an AED
+DefaultIntent how to use shock pads
+DefaultIntent how to shock
+DefaultIntent how to deliver shock
+DefaultIntent his heart stopped
+DefaultIntent her heart stopped
+DefaultIntent their heart stopped
+
+DefaultIntent someone is bleeding
+DefaultIntent he is bleeding
+DefaultIntent she is bleeding
+DefaultIntent they're bleeding
+DefaultIntent how do i stop the bleeding
+DefaultIntent how do i control the bleeding
+DefaultIntent how to stop bleeding
+DefaultIntent how to control bleeding
+DefaultIntent there is blood
+
+DefaultIntent someone was burned
+DefaultIntent he has a burn
+DefaultIntent she has a burn
+DefaultIntent they have burns
+DefaultIntent he was on fire
+DefaultIntent she was on fire
+DefaultIntent they were on fire
+DefaultIntent how do i treat a burn
+DefaultIntent first degree burn
+DefaultIntent second degree burn
+DefaultIntent third degree burn
+
+DefaultIntent someone was poisoned
+DefaultIntent he was poisoned
+DefaultIntent she was poisoned
+DefaultIntent they were poisoned
+DefaultIntent he ate poison
+DefaultIntent she ate poison
+DefaultIntent how to treat poison victim
+
+DefaultIntent i need help with neck injury
+DefaultIntent i need help with a neck injury
+DefaultIntent someone hurt their neck
+DefaultIntent he hurt his neck
+DefaultIntent she hurt her neck
+DefaultIntent they hurt they're neck
+DefaultIntent neck broken
+DefaultIntent someone's neck is broken
+DefaultIntent his neck is broken
+DefaultIntent her neck is broken
+DefaultIntent neck is broken
+DefaultIntent broken neck
+DefaultIntent they fell on neck
+DefaultIntent he fell on neck
+DefaultIntent she fell on neck
+DefaultIntent how to treat broken neck
+
+DefaultIntent i need help with spine injury
+DefaultIntent i need help with a spine injury
+DefaultIntent someone hurt their spine
+DefaultIntent he hurt his spine
+DefaultIntent she hurt her spine
+DefaultIntent they hurt they're spine
+DefaultIntent spine broken
+DefaultIntent someone's spine is broken
+DefaultIntent his spine is broken
+DefaultIntent her spine is broken
+DefaultIntent spine is broken
+DefaultIntent broken spine
+DefaultIntent they fell on their spine
+DefaultIntent he fell on his spine
+DefaultIntent she fell on her spine
+DefaultIntent how to treat broken spine
+
+DefaultIntent someone hurt their back
+DefaultIntent he hurt his back
+DefaultIntent she hurt her back
+DefaultIntent they hurt they're back
+DefaultIntent back broken
+DefaultIntent someone's back is broken
+DefaultIntent his back is broken
+DefaultIntent her back is broken
+DefaultIntent back is broken
+DefaultIntent broken back
+DefaultIntent they fell on their back
+DefaultIntent he fell on his back
+DefaultIntent she fell on her back
+DefaultIntent how to treat broken back
+
+DefaultIntent i need help with a stroke
+DefaultIntent they're having a stroke
+DefaultIntent he's having a stroke
+DefaultIntent she's having a stroke
+DefaultIntent how to treat a stroke

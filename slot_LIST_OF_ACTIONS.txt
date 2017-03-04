@@ -1,0 +1,7 @@
+Name: "Action"
+Slot Type: LIST_OF_ACTIONS
+Values:
+  compressions
+  chest compressions
+  rescue breaths
+  breaths
